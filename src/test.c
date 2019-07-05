@@ -10,7 +10,7 @@ void assert(int condition){
     failed++;
   }
   else {
-    printf("Test number %i passed!.\n", testNum);
+    printf("Test number %i passed!\n", testNum);
     passed++;
   }
   testNum++;
