@@ -1,9 +1,13 @@
 ﻿#include <stdio.h>
-#include "add.h"
+
+int returnVal() {
+  getchar();
+  return 0;
+}
+
 int main()
 {
    // printf() displays the string inside quotation
-   printf("Hello, World!\n");
-   printf("%i", add(1,1));
-   return 0;
+   printf("Hello, Main!\n");
+   return returnVal();
 }

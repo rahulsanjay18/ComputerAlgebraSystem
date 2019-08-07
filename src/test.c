@@ -45,11 +45,15 @@ void runAllTestCases() {
   getTestStatusMessage();
 }
 
+int returnVal() {
+  getchar();
+  return 0;
+}
 /**
 	This file is going to be for all test cases. put all test cases above
 	this function
 */
 int main() {
   runAllTestCases();
-  return 0;
+  return returnVal();
 }
